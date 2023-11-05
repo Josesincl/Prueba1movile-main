@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Obtener Cordenadas
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="ion=padding" style="text-align: center;"> 
+    <ion-label>Coordenadas</ion-label>
+  </div>
+  <div class="ion-padding">
+    <ion-item>
+      <ion-label>Latitud {{ latitud }} </ion-label>
+    </ion-item>
+     </div>
+     <div class="ion-padding">
+      <ion-item>
+        <ion-label>Logitiud {{ longitud }}</ion-label>
+      </ion-item>
+     </div>
+     <div class="ion-padding">
+      <ion-button expand = "full" (click)=obtennerCordenadas()>Obtener</ion-button>
+     </div>
+
+</ion-content>
